@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Financeiro - Entrar</title>
+    <link rel="stylesheet" href="../style.css">
+    <script src="https://kit.fontawesome.com/6ed02b3783.js" crossorigin="anonymous"></script>
+</head>
+<body class="body">
+    <header class="header">
+        <div class="logo-search">
+            <a href="../index.html" class="logo">
+                <img src="../img/logo.png" alt="logo">
+            </a>
+        </div>
+        <nav class="navbar">
+            <a href="../index.html#home">home</a>
+            <a href="../index.html#noticias">notícias</a>
+            <a href="../index.html#learn">aprenda</a>
+            <a href="../index.html#artigos">comunidade</a>
+            <a href="../index.html#sobrenos">sobre nós</a>
+            <a href="../index.html#footer">contato</a>
+            <div class="login-signup">
+                <button class="login-btn">
+                    <a href="login.html">entrar</a>
+                </button>
+                <button class="signUp-btn"> 
+                    <a href="signup.html">registrar-se</a>
+                </button>
+            </div>
+        </nav>
+        <div class="fa-sharp fa-solid fa-bars" id="menu-btn"></div>
+    </header>
+
+
+    <section class="wrapper" id="wrapper">
+        <h2 class="title">Bem vindo <span>de volta!</span></h2>
+            <form class="form">
+                    <input type="email" class="input" placeholder="Email">
+                    <input type="password" class="input" placeholder="Senha">
+                    <button class="loginBtn">Entrar</button>
+                    <span class="switch">Não possui uma conta?
+                        <a href="signup.html" for="signup_toggle" class="signup_tog">
+                            Cadastrar-se
+                        </a>
+                    </span>
+            </form>
+    </section>
+
+
+
+
+    <footer class="footer" id="footer">
+        <div class="socialmedias">
+            <a href="https://www.youtube.com/@financeiro/featured" class="fa-brands fa-youtube"></a>
+            <a href="https://www.instagram.com/ocanalfinanceiro/" class="fa-brands fa-instagram"></a>
+            <a href="https://www.tiktok.com/@financeiro?lang=pt-BR" class="fa-brands fa-tiktok"></a>
+        </div>
+
+        <div class="emails">
+            <div class="email1">
+                <p>Para sugestões e comentários</p>
+                <a href="">ocanaldasfinancas@gmail.com</a>
+            </div>
+            <div class="email2">
+                <p>Para contatos comerciais</p>
+                <a href="">contato@coisadenerd.net</a>
+            </div>
+        </div>
+
+        <div class="links">
+            <a href="../index.html#home">home</a>
+            <a href="../index.html#noticias">notícias</a>
+            <a href="../index.html#learn">aprenda</a>
+            <a href="../index.html#artigos">comunidade</a>
+            <a href="../index.html#sobrenos">sobre nós</a>
+            <a href="../index.html#footer">contato</a>
+        </div>
+
+        <div class="credit">
+            feito por <span>Lucas Yuzo, Marcus Cruseiro, Matheus Oliveira e João Pedro</span> | <a href="../quem-somos.html">Quem somos?</a> | todos os direitos reservados
+        </div>
+    </footer>
+    <script>
+        let navbar = document.querySelector('.navbar');
+
+        document.querySelector('#menu-btn').onclick = () => {
+        navbar.classList.toggle('active');
+        };
+    </script>
+</body>
+</html>
