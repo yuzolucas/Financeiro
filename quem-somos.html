@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Financeiro - Quem Somos</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/6ed02b3783.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <header class="header">
+        <div class="logo-search">
+            <a href="index.html" class="logo">
+                <img src="img/logo.png" alt="logo">
+            </a>
+        </div>
+        <nav class="navbar">
+            <a href="index.html#home">home</a>
+            <a href="index.html#noticias">notícias</a>
+            <a href="index.html#learn">aprenda</a>
+            <a href="index.html#artigos">comunidade</a>
+            <a href="index.html#sobrenos">sobre nós</a>
+            <a href="index.html#footer">contato</a>
+            <div class="login-signup">
+                <button class="login-btn">
+                    <a href="login-signup/login.html">entrar</a>
+                </button>
+                <button class="signUp-btn"> 
+                    <a href="login-signup/signup.html">registrar-se</a>
+                </button>
+            </div>
+        </nav>
+        <div class="fa-sharp fa-solid fa-bars" id="menu-btn"></div>
+    </header>
+
+    <section class="biografia" id="biografia">
+
+        <h1>quem <span>somos</span></h1>
+
+        <div class="container">
+            <div class="box-container">
+                <img src="img/marcus.png" alt="profile">
+                <div class="biography-text">
+                    <h3>Marcus Cruseiro</h3>
+                    <p>Meu nome é Marcus Cruseiro e eu estou cursando o ensino medio técnico de TI da FIAP. Eu fiz parte das pequisas, idealização e design do layout do site.</p>
+                </div>
+            </div>
+
+            <div class="box-container" id="inverted">
+                <img src="img/lucas.png" alt="profile">
+                <div class="biography-text">
+                    <h3>Lucas Yuzo</h3>
+                    <p>Meu nome é Lucas Yuzo e eu estou cursando o ensino medio técnico de TI da FIAP. Eu cuidei da idealização e da parte do código por trás do site.</p>
+                </div>
+            </div>
+
+            <div class="box-container">
+                <img src="img/matheus.png" alt="profile">
+                <div class="biography-text">
+                    <h3>Matheus Oliveira</h3>
+                    <p>Meu nome é Matheus Oliveira e eu estou cursando o ensino medio técnico de TI da FIAP. Eu cuidei do design do layout do site, nas pesquisas, e ajudei em outras partes de nosso site também.</p>
+                </div>
+            </div>
+
+            <div class="box-container" id="inverted">
+                <img src="img/joao.png" alt="profile">
+                <div class="biography-text">
+                    <h3>João Pedro</h3>
+                    <p>Meu nome é João Pedro e eu estou cursando o ensino medio técnico de TI da FIAP. Eu trabalhei no design do layout e nas pesquisas sobre o tema.</p>
+                </div>
+            </div>
+        </div>
+
+    </section>
+
+
+
+
+
+    <footer class="footer" id="footer">
+        <div class="socialmedias">
+            <a href="https://www.youtube.com/@financeiro/featured" class="fa-brands fa-youtube"></a>
+            <a href="https://www.instagram.com/ocanalfinanceiro/" class="fa-brands fa-instagram"></a>
+            <a href="https://www.tiktok.com/@financeiro?lang=pt-BR" class="fa-brands fa-tiktok"></a>
+        </div>
+
+        <div class="emails">
+            <div class="email1">
+                <p>Para sugestões e comentários</p>
+                <a href="">ocanaldasfinancas@gmail.com</a>
+            </div>
+            <div class="email2">
+                <p>Para contatos comerciais</p>
+                <a href="">contato@coisadenerd.net</a>
+            </div>
+        </div>
+
+        <div class="links">
+            <a href="index.html#home">home</a>
+            <a href="index.html#noticias">notícias</a>
+            <a href="index.html#learn">aprenda</a>
+            <a href="index.html#artigos">comunidade</a>
+            <a href="index.html#sobrenos">sobre nós</a>
+            <a href="index.html#footer">contato</a>
+        </div>
+
+        <div class="credit">
+            feito por <span>Lucas Yuzo, Marcus Cruseiro, Matheus Oliveira e João Pedro</span> | <a href="quem-somos.html">Quem somos?</a> | todos os direitos reservados
+        </div>
+    </footer>
+    <script>
+        let navbar = document.querySelector('.navbar');
+
+        document.querySelector('#menu-btn').onclick = () => {
+        navbar.classList.toggle('active');
+        };
+    </script>
+</body>
+</html>
+
