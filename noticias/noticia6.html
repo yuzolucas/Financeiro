@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Financeiro - Notícias</title>
+    <link rel="stylesheet" href="../style.css">
+    <script src="https://kit.fontawesome.com/6ed02b3783.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <header class="header">
+        <div class="logo-search">
+            <a href="../index.html" class="logo">
+                <img src="../img/logo.png" alt="logo">
+            </a>
+        </div>
+        <nav class="navbar">
+            <a href="../index.html#home">home</a>
+            <a href="../index.html#noticias">notícias</a>
+            <a href="../index.html#learn">aprenda</a>
+            <a href="../index.html#artigos">comunidade</a>
+            <a href="../index.html#sobrenos">sobre nós</a>
+            <a href="../index.html#footer">contato</a>
+            <div class="login-signup">
+                <button class="login-btn">
+                    <a href="../login-signup/login.html">entrar</a>
+                </button>
+                <button class="signUp-btn"> 
+                    <a href="../login-signup/signup.html">registrar-se</a>
+                </button>
+            </div>
+        </nav>
+        <div class="fa-sharp fa-solid fa-bars" id="menu-btn"></div>
+    </header>
+
+    <section class="main-content">
+        <a href="noticias.html">
+            <i class="fa-solid fa-arrow-left" id="arrow"></i>
+        </a>
+        <h2>Rivalidade entre EUA e China divide economia global</h2>
+        <span class="date">8 de novembro de 2023</span>
+
+        <p>A China alcançou um feito histórico no último trimestre do ano passado ao superar um marco econômico significativo: pela primeira vez desde o início de sua abertura econômica há mais de quatro décadas, o país realizou mais transações comerciais com nações em desenvolvimento do que com os Estados Unidos, Europa e Japão combinados. Este evento reflete uma clara mudança nas direções econômicas entre a China e o Ocidente, enquanto as tensões aumentam em relação a questões como comércio, tecnologia e segurança.</p>
+
+        <p>Ao longo de décadas, os Estados Unidos e outros países ocidentais buscaram transformar a China em um parceiro e cliente em uma economia global unificada liderada pelas nações mais ricas. Entretanto, os fluxos comerciais e de investimentos agora estão estabelecendo novos padrões em torno dos dois centros de poder concorrentes. Nessa economia global cada vez mais dividida, os EUA continuam a pressionar a China com restrições de investimentos e proibições de exportações, enquanto a China redireciona sua economia para longe do Ocidente em direção aos países em desenvolvimento.</p>
+
+        <p>Embora haja benefícios para os EUA e a Europa, como a redução da dependência das cadeias de abastecimento chinesas, existe o risco de um crescimento global mais lento, e muitos economistas temem que os custos dessa divisão entre a China e o Ocidente superem as vantagens. O Fundo Monetário Internacional (FMI) alertou que a separação entre a China e o Ocidente poderia custar à economia mundial até 7% do PIB, destacando os desafios econômicos dessa crescente divisão.</p>
+        
+        <p>A tendência de dissociação econômica é evidente nas decisões de grandes empresas ocidentais, como Apple, Stellantis e HP, que planejam mover parte de sua produção para fora da China. Empresas financeiras também estão ajustando suas estratégias para se adaptarem a esse novo cenário, e mais de um terço das empresas americanas consultadas pelo U.S. China Business Council relataram ter reduzido ou interrompido investimentos planejados na China no último ano.</p>
+
+        <p>O aumento das tensões e a mudança de direção nas relações econômicas entre China e Ocidente estão impactando diretamente as cadeias de abastecimento, o compartilhamento de tecnologia e o crescimento econômico. A fragmentação econômica está se tornando cada vez mais aparente, representando uma nova fase após décadas de integração econômica global desde a abertura da China na década de 80 e seu ingresso na Organização Mundial do Comércio em 2001.</p>
+
+
+    </section>
+
+
+
+    <footer class="footer" id="footer">
+        <div class="socialmedias">
+            <a href="https://www.youtube.com/@financeiro/featured" class="fa-brands fa-youtube"></a>
+            <a href="https://www.instagram.com/ocanalfinanceiro/" class="fa-brands fa-instagram"></a>
+            <a href="https://www.tiktok.com/@financeiro?lang=pt-BR" class="fa-brands fa-tiktok"></a>
+        </div>
+
+        <div class="emails">
+            <div class="email1">
+                <p>Para sugestões e comentários</p>
+                <a href="">ocanaldasfinancas@gmail.com</a>
+            </div>
+            <div class="email2">
+                <p>Para contatos comerciais</p>
+                <a href="">contato@coisadenerd.net</a>
+            </div>
+        </div>
+
+        <div class="links">
+            <a href="../index.html#home">home</a>
+            <a href="../index.html#noticias">notícias</a>
+            <a href="../index.html#learn">aprenda</a>
+            <a href="../index.html#artigos">comunidade</a>
+            <a href="../index.html#sobrenos">sobre nós</a>
+            <a href="../index.html#footer">contato</a>
+        </div>
+
+        <div class="credit">
+            feito por <span>Lucas Yuzo, Marcus Cruseiro, Matheus Oliveira e João Pedro</span> | <a href="../quem-somos.html">Quem somos?</a> | todos os direitos reservados
+        </div>
+    </footer>
+    <script>
+        let navbar = document.querySelector('.navbar');
+
+        document.querySelector('#menu-btn').onclick = () => {
+        navbar.classList.toggle('active');
+        };
+    </script>
+</body>
+</html>

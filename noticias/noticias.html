@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Financeiro - Notícias</title>
+    <link rel="stylesheet" href="../style.css">
+    <script src="https://kit.fontawesome.com/6ed02b3783.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <header class="header">
+        <div class="logo-search">
+            <a href="../index.html" class="logo">
+                <img src="../img/logo.png" alt="logo">
+            </a>
+        </div>
+        <nav class="navbar">
+            <a href="../index.html#home">home</a>
+            <a href="../index.html#noticias">notícias</a>
+            <a href="../index.html#learn">aprenda</a>
+            <a href="../index.html#artigos">comunidade</a>
+            <a href="../index.html#sobrenos">sobre nós</a>
+            <a href="../index.html#footer">contato</a>
+            <div class="login-signup">
+                <button class="login-btn">
+                    <a href="../login-signup/login.html">entrar</a>
+                </button>
+                <button class="signUp-btn"> 
+                    <a href="../login-signup/signup.html">registrar-se</a>
+                </button>
+            </div>
+        </nav>
+        <div class="fa-sharp fa-solid fa-bars" id="menu-btn"></div>
+    </header>
+
+    <div class="undo-arrow">
+        <a href="../index.html">
+            <i class="fa-solid fa-arrow-left" id="arrow"></i>
+        </a>
+    </div>
+    <section class="noticias" id="noticias">
+        <h1 id="exception" class="title"><span>assuntos</span> do momento</h1>
+        <div class="box-container">
+            <div class="box">
+                <img src="../img/china-flag.jpg" alt="">
+                <h3>Economia global dividida em dois polos</h3>
+                <div class="synopsis">Rivalidade entre EUA e China divide economia global</div>
+                <button class="see-more-btn">
+                    <a href="noticia6.html">ver mais</a>
+                </button>
+            </div>
+
+            <div class="box">
+                <img src="../img/bitcoin.jpg" alt="">
+                <h3>Bitcoin em 2024</h3>
+                <div class="synopsis">Veja algumas previsões para o Bitcoin em 2024</div>
+                <button class="see-more-btn">
+                    <a href="noticia5.html">ver mais</a>
+                </button>
+            </div>
+
+            <div class="box">
+                <img src="../img/tether.jpg" alt="">
+                <h3>Tether congela grande quantia por conta da guerra</h3>
+                <div class="synopsis">Empresa congela 4,2 bilhões de reais em criptomoedas relacionadas à guerra entre Israel e Ucrânia</div>
+                <button class="see-more-btn">
+                    <a href="noticia4.html">ver mais</a>
+                </button>
+            </div>
+
+            <div class="box">
+                <img src="../img/israel-palestine-flags.jpg" alt="">
+                <h3>Hamas x Israel: Veja os impactos</h3>
+                <div class="synopsis">O Impacto da Guerra entre Hamas e Israel no Preço do Petróleo no Brasil</div>
+                <button class="see-more-btn">
+                    <a href="noticia.html">ver mais</a>
+                </button>
+            </div>
+            
+            <div class="box">
+                <img src="../img/russia-ukraine-flags.jpg" alt="">
+                <h3>Russia x Ucrânia</h3>
+                <div class="synopsis">A Influência da Guerra na Ucrânia na Economia Brasileira</div>
+                <button class="see-more-btn">
+                    <a href="noticia3.html">ver mais</a>
+                </button>
+            </div>
+
+            <div class="box">
+                <img src="../img/locaweb.jpg" alt="">
+                <h3>Locaweb Serviços de Internet</h3>
+                <div class="synopsis">Locaweb Serviços de Internet: Impulsionando a Transformação Digital</div>
+                <button class="see-more-btn">
+                    <a href="noticia2.html">ver mais</a>
+                </button>
+            </div>
+
+    </section>
+
+
+
+    <footer class="footer" id="footer">
+        <div class="socialmedias">
+            <a href="https://www.youtube.com/@financeiro/featured" class="fa-brands fa-youtube"></a>
+            <a href="https://www.instagram.com/ocanalfinanceiro/" class="fa-brands fa-instagram"></a>
+            <a href="https://www.tiktok.com/@financeiro?lang=pt-BR" class="fa-brands fa-tiktok"></a>
+        </div>
+
+        <div class="emails">
+            <div class="email1">
+                <p>Para sugestões e comentários</p>
+                <a href="">ocanaldasfinancas@gmail.com</a>
+            </div>
+            <div class="email2">
+                <p>Para contatos comerciais</p>
+                <a href="">contato@coisadenerd.net</a>
+            </div>
+        </div>
+
+        <div class="links">
+            <a href="../index.html#home">home</a>
+            <a href="../index.html#noticias">notícias</a>
+            <a href="../index.html#learn">aprenda</a>
+            <a href="../index.html#artigos">comunidade</a>
+            <a href="../index.html#sobrenos">sobre nós</a>
+            <a href="../index.html#footer">contato</a>
+        </div>
+
+        <div class="credit">
+            feito por <span>Lucas Yuzo, Marcus Cruseiro, Matheus Oliveira e João Pedro</span> | <a href="../quem-somos.html">Quem somos?</a> | todos os direitos reservados
+        </div>
+    </footer>
+    <script>
+        let navbar = document.querySelector('.navbar');
+
+        document.querySelector('#menu-btn').onclick = () => {
+        navbar.classList.toggle('active');
+        };
+    </script>
+</body>
+</html>
+
