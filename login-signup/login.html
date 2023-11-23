@@ -25,7 +25,7 @@
                 <button class="login-btn">
                     <a href="login.html">entrar</a>
                 </button>
-                <button class="signUp-btn"> 
+                <button class="signUp-btn" onclick="window.location.href='signup.html'"> 
                     <a href="signup.html">registrar-se</a>
                 </button>
             </div>
@@ -82,12 +82,52 @@
             feito por <span>Lucas Yuzo, Marcus Cruseiro, Matheus Oliveira e João Pedro</span> | <a href="../quem-somos.html">Quem somos?</a> | todos os direitos reservados
         </div>
     </footer>
-    <script>
-        let navbar = document.querySelector('.navbar');
+    <div class="control">
+        <span>mouse scroll</span>
+        <input type="checkbox" id="scroll-check" checked>
+        <span>ctrl + , ctrl -</span>
+        <input type="checkbox" id="keyboard-check" checked>
+    </div>
 
-        document.querySelector('#menu-btn').onclick = () => {
-        navbar.classList.toggle('active');
-        };
-    </script>
+    
+
+
+
+<script>
+    let navbar = document.querySelector('.navbar');
+
+    document.querySelector('#menu-btn').onclick = () => {
+    navbar.classList.toggle('active');
+    };
+
+const scrollCheck = document.querySelector("#scroll-check");
+const keyboardCheck = document.querySelector("#keyboard-check");
+
+document.addEventListener("keydown", function (e) {
+if (
+keyboardCheck.checked &&
+e.ctrlKey &&
+(e.keyCode == "61" ||
+  e.keyCode == "107" ||
+  e.keyCode == "173" ||
+  e.keyCode == "109" ||
+  e.keyCode == "187" ||
+  e.keyCode == "189")
+) {
+e.preventDefault();
+}
+});
+document.addEventListener(
+"wheel",
+function (e) {
+if (scrollCheck.checked && e.ctrlKey) {
+  e.preventDefault();
+}
+},
+{
+passive: false
+}
+);
+</script>
 </body>
 </html>
