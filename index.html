@@ -44,7 +44,7 @@
         <h1 class="title"><span>assuntos</span> do momento</h1>
         <div class="box-container">
             <div class="box">
-                <img src="img/china-flag.jpg" alt="bandeira da China">
+                <img src="img/china-flag.jpg" alt="">
                 <h3>Economia global dividida em dois polos</h3>
                 <div class="synopsis">Rivalidade entre EUA e China divide economia global</div>
                 <button class="see-more-btn">
@@ -53,7 +53,7 @@
             </div>
 
             <div class="box">
-                <img src="img/bitcoin.jpg" alt="criptomoeda">
+                <img src="img/bitcoin.jpg" alt="">
                 <h3>Bitcoin em 2024</h3>
                 <div class="synopsis">Veja algumas previsões para o Bitcoin em 2024</div>
                 <button class="see-more-btn">
@@ -62,7 +62,7 @@
             </div>
 
             <div class="box">
-                <img src="img/tether.jpg" alt="empresa Tether">
+                <img src="img/tether.jpg" alt="">
                 <h3>Tether congela grande quantia por conta da guerra</h3>
                 <div class="synopsis">Empresa congela 4,2 bilhões de reais em criptomoedas relacionadas à guerra entre Israel e Ucrânia</div>
                 <button class="see-more-btn">
@@ -71,7 +71,7 @@
             </div>
 
             <div class="box">
-                <img src="img/israel-palestine-flags.jpg" alt="bandeiras de Israel e Palestina">
+                <img src="img/israel-palestine-flags.jpg" alt="">
                 <h3>Hamas x Israel: Veja os impactos</h3>
                 <div class="synopsis">O Impacto da Guerra entre Hamas e Israel no Preço do Petróleo no Brasil</div>
                 <button class="see-more-btn">
@@ -262,13 +262,19 @@
                 feito por <span>Lucas Yuzo, Marcus Cruseiro, Matheus Oliveira e João Pedro</span> | <a href="quem-somos.html">Quem somos?</a> | todos os direitos reservados
             </div>
         </footer>
-    
+
+
+
         <div class="control">
             <span>mouse scroll</span>
             <input type="checkbox" id="scroll-check" checked>
             <span>ctrl + , ctrl -</span>
             <input type="checkbox" id="keyboard-check" checked>
         </div>
+
+        
+
+
 
     <script>
         let navbar = document.querySelector('.navbar');
@@ -277,8 +283,8 @@
         navbar.classList.toggle('active');
         };
 
-        const scrollCheck = document.querySelector("#scroll-check");
-        const keyboardCheck = document.querySelector("#keyboard-check");
+const scrollCheck = document.querySelector("#scroll-check");
+const keyboardCheck = document.querySelector("#keyboard-check");
 
 document.addEventListener("keydown", function (e) {
   if (
