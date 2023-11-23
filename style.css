@@ -396,6 +396,15 @@ section {
 	padding: 1rem 0;
 	color: #eee;
 }
+.home .content a {
+	font-family: "Roboto", sans-serif;
+	font-size: 2rem;
+	font-weight: bold;
+	text-transform: initial;
+	line-height: 1.8;
+	padding: 1rem 0;
+	color: var(--green);
+}
 
 .see-more-btn {
 	position: relative;
@@ -880,9 +889,12 @@ section {
 	color: #fff;
 	font-size: 2rem;
 }
-
-
-
+.control {
+	display: none;
+}
+.signUp-btn {
+	cursor: pointer;
+}
 .user-comment {
 	display: flex;
 	flex-direction: row;
